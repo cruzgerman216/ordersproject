@@ -1,0 +1,14 @@
+<button (click)="onStartWorkDay()">starts work day</button>
+<button (click)="onEndWorkDay()">Ends work day</button>
+
+<div class="">
+    <app-first-five-orders [getOrders]="orders"></app-first-five-orders>
+</div>
+
+<div class="">
+    <app-all-other-orders [getOrders]="orders"></app-all-other-orders>
+</div>
+
+<div class="">
+    <app-lottery-winning-order [getOrders]="orders"></app-lottery-winning-order>
+</div>

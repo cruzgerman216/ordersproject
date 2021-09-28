@@ -1,0 +1,6 @@
+<div style="background-color: gold">
+  <h3>Lottery Tickets</h3>
+  <div *ngFor="let order of orders; let i = index">
+    <p *ngIf="(i+1) % 7 == 0 && i != 0">{{ order }}</p>
+  </div>
+</div>

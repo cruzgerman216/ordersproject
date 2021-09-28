@@ -1,0 +1,4 @@
+<h3>All other orders</h3>
+<div *ngFor="let order of orders; let i = index">
+    <p *ngIf="i >= 5">{{order}}</p>
+</div>
